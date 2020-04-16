@@ -1,7 +1,6 @@
 ### <img src="https://raw.github.com/YingqianWang/Awesome-LF-Image-SR/master/Fig/Thumbnail.jpg" width="1000">
-#### With recent advances in camera divices, light field (LF) imaging technology becomes increasingly popular and is commonly used in various applications such as mobile phones, biological microscope, VR/AR etc. Since both intensity and directions of light rays can be recorded by LF cameras, the resolution of LF images can be enhanced by using the additional angular information. LF image super-resolution (SR), also known as LF spatial SR, aims at reconstructing high-resolution LF images from their low-resolution conterparts.
-#### In this repository, we present a collection of papers and datasets on LF image super-resolution (SR), together with their codes and repos. 
-#### This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
+#### With recent advances in camera manufacturing, light field (LF) imaging technology becomes increasingly popular and is commonly used in various applications such as mobile phones, biological microscope, VR/AR etc. Since both intensity and directions of light rays are recorded by LF cameras, the resolution of LF images can be enhanced by using these additional angular information. LF image super-resolution (SR), also known as LF spatial SR, aims at reconstructing high-resolution (HR) LF images from their low-resolution (LR) conterparts. In this repository, we present a collection of papers and datasets on LF image SR, together with their codes and repos. 
+#### Note: This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
 
 ## Datasets
 #### A more comprehensive overview of LF datasets can be viewed through [**this link**](https://github.com/lightfield-analysis/resources). Here, we only list several popular datasets which are commonly used for LF image SR: 
