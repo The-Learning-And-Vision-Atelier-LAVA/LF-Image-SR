@@ -3,11 +3,14 @@
 #### This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
 
 ## Datasets
+#### A more comprehensive overview of LF datasets can be viewed through [**this link**](https://github.com/lightfield-analysis/resources). Here, we only list several popular datasets which are commonly used for LF image SR: 
+* **New light field image dataset (EPFL)**. [**website**](https://www.epfl.ch/labs/mmspg/downloads/epfl-light-field-image-dataset/); [**paper**](https://infoscience.epfl.ch/record/218363/files/Qomex2016_shortpaper.pdf?version=1)
+* **Datasets and Benchmarks for Densely Sampled 4D Light Fields (HCIold)**. [**paper**](https://pdfs.semanticscholar.org/1a86/e03c229adb5b94e1f43f8508f033f74e94ae.pdf)
+* **4D Light Field Dataset (HCInew)**. [**website**](https://lightfield-analysis.uni-konstanz.de/); [**paper**](https://infoscience.epfl.ch/record/218363/files/Qomex2016_shortpaper.pdf?version=1)
+* **INRIA Light field dataset (INRIA)**. [**website**](https://www.irisa.fr/temics/demos/lightField/LowRank2/datasets/datasets.html); [**paper**](https://hal.archives-ouvertes.fr/hal-01720622/file/LFInpaintTIP.pdf)
+* **The (New) Stanford Light Field Archive (STFgantry)**. [**website**](http://lightfield.stanford.edu/)
+* **Stanford Lytro Light Field Archive (STFLytro)**. [**website**](http://lightfields.stanford.edu/LF2016.html)
 
-|     Name     |   links |  Comments |
-| :----------: |  :-----: | :-------: |
-|     **HCI benchmark**     | [**website**](https://lightfield-analysis.uni-konstanz.de/) & [**paper**](https://lightfield-analysis.uni-konstanz.de/) | **online benchmark, 24 synthetic scenes, groundtruth disparity** |
-|     **EPFL**     | [**website**](https://www.epfl.ch/labs/mmspg/downloads/epfl-light-field-image-dataset/) & [**paper**](https://infoscience.epfl.ch/record/218363/files/Qomex2016_shortpaper.pdf?version=1) | **Lytro** |
 
 
 ## Methods
@@ -16,7 +19,7 @@
 | **GMM** | [**CVPRW2012**](https://www.ece.rice.edu/~av21/Documents/2012/Light%20field%20denoising,%20light%20field%20superresolution%20and%20stereo%20camera%20based%20refocussing%20using%20a%20GMM%20light%20field%20patch%20prior.pdf) | -- | **pioneering work, Gaussian mixture model** | -- |
 | **Wanner et al.** | [**ECCV2012**](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ECCV-2012/papers/7576/75760608.pdf) & [**TPAMI2013**](https://ieeexplore.ieee.org/abstract/document/6574844/) | -- | **pioneering work, variational model** | -- |
 | **LFCNN** | [**ICCVW2015**](http://openaccess.thecvf.com/content_iccv_2015_workshops/w3/papers/Yoon_Learning_a_Deep_ICCV_2015_paper.pdf) & [**SPL2017**](https://ieeexplore.ieee.org/abstract/document/7856946) | [**TensorFlow**](https://github.com/youngjinYoon/SPL_LF_SR) | **first CNN-based method** | **GMM, Wanner et al.** |
-| **PCA_rr** | [**JSTSP2017**](https://hal.archives-ouvertes.fr/hal-01591488/file/lightfield_SR_v02.pdf) | -- | **linear subspace projection** | **LFCNN**, *SRCNN, ANR, NCSR* |
+| **PCA_rr** | [**JSTSP2017**](https://hal.archives-ouvertes.fr/hal-01591488/file/lightfield_SR_v02.pdf) | [**Matlab**](https://github.com/rrfarr/LF-Editing) | **linear subspace projection** | **LFCNN**, *SRCNN, ANR, NCSR* |
 | **LFSR_Gul** | [**TIP2018**](https://arxiv.org/pdf/1707.00815) | -- | **CNN** | **LFCNN**, *DRRN* |
 | **GB** | [**MMSP2017**](https://infoscience.epfl.ch/record/230084/files/superMMSP_1.pdf) & [**TIP2018**](https://arxiv.org/pdf/1701.02141) | [**Matlab**](https://github.com/rossimattia/light-field-super-resolution) | **graph-based regularization** | **Wanner et al., GMM**, *SRCNN* |
 | **LFNet** | [**TIP2018**](https://ieeexplore.ieee.org/abstract/document/8356655/) | [**Theano**](https://github.com/wylcasia/LFNet) | **bidirectional recurrent CNN** | **LFCNN**, *FSRCNN, VDSR, BRCN, DRRN* |
@@ -37,3 +40,5 @@
 * [**LoSealL/VideoSuperResolution**](https://github.com/LoSealL/VideoSuperResolution)
 * [**ChaofWang/Awesome-Super-Resolution**](https://github.com/ChaofWang/Awesome-Super-Resolution)
 * [**ptkin/Awesome-Super-Resolution**](https://github.com/ptkin/Awesome-Super-Resolution)
+* [**lightfield-analysis/resources**](https://github.com/lightfield-analysis/resources)
+* [**Joechann0831/LFSRBenchmark**](https://github.com/Joechann0831/LFSRBenchmark)
