@@ -36,6 +36,8 @@
 | **Jin et al.** | [**CVPR2020**](https://arxiv.org/pdf/2004.02215.pdf) | -- | **combinatorial geometry embedding, structural consistency regularization** | **PCA_rr, LFNet, GB, resLF**, *EDSR* |
 | **LF-InterNet** | [**arXiv2020**](https://arxiv.org/pdf/1912.07849v2.pdf) | [**PyTorch**](https://github.com/YingqianWang/LF-InterNet) | **spatial-angular interaction** | **LFBM5D, GB, LFNet, LFSSR, resLF**, *VDSR, EDSR, RCAN, SAN, SRGAN, ESRGAN* |
 
+## Acknowledgement
+**We would like to thank [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussion and insightful advice on this work.**
 
 ## Other Recources
 * [**YapengTian/Single-Image-Super-Resolution**](https://github.com/YapengTian/Single-Image-Super-Resolution)
