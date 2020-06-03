@@ -34,8 +34,8 @@
 | **resLF** | [**CVPR2019**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Residual_Networks_for_Light_Field_Image_Super-Resolution_CVPR_2019_paper.pdf) | [**PyTorch**](https://github.com/shuozh/resLF) | **multi-branch inputs, residual blocks** | **GMM, Wanner et al., LFCNN, LFNet, GB**, *EDSR* |
 | **Zhu et al.** | [**CVPRW2019**](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Zhu_An_Epipolar_Volume_Autoencoder_With_Adversarial_Loss_for_Deep_Light_CVPRW_2019_paper.pdf) | [**TensorFlow**](https://github.com/MinchenZKN/LFSR) | **epipolar volume autoencoder, adversarial loss** | **GB**, *SRGAN* |
 | **HDDRNet** | [**TPAMI2019**](https://arxiv.org/pdf/1910.01426.pdf) & [**AAAI2020**](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-MengN.6416.pdf) | [**TensorFlow**](https://github.com/monaen/LightFieldReconstruction) | **4D convolution, dense residual connection** | **LFCNN, PCA_rr, LFNet, resLF**, *VDSR, MSLapSRN, RDN, ESPCN, DUF* |
-| **Jin et al.** | [**CVPR2020**](https://arxiv.org/pdf/2004.02215.pdf) | -- | **combinatorial geometry embedding, structural consistency regularization** | **PCA_rr, LFNet, GB, resLF**, *EDSR* |
-| **LF-InterNet** | [**arXiv2020**](https://arxiv.org/pdf/1912.07849v2.pdf) | [**PyTorch**](https://github.com/YingqianWang/LF-InterNet) | **spatial-angular interaction** | **LFBM5D, GB, LFNet, LFSSR, resLF**, *VDSR, EDSR, RCAN, SAN, SRGAN, ESRGAN* |
+| **LF-ATO** | [**CVPR2020**](https://arxiv.org/pdf/2004.02215.pdf) | -- | **combinatorial geometry embedding, structural consistency regularization** | **PCA_rr, LFNet, GB, resLF**, *EDSR* |
+| **LF-InterNet** | [**arXiv2019**](https://arxiv.org/pdf/1912.07849v2.pdf) | [**PyTorch**](https://github.com/YingqianWang/LF-InterNet) | **spatial-angular interaction, efficient** | **LFBM5D, GB, LFNet, LFSSR(SAS), resLF, LF-ATO(comparable)**, *VDSR, EDSR, RCAN, SAN, SRGAN, ESRGAN* |
 
 ## Acknowledgement
 **We would like to thank [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussion and insightful advice regarding this work.**
