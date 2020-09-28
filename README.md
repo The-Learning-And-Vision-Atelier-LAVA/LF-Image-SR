@@ -36,7 +36,7 @@
 | **HDDRNet** | [**TPAMI2019**](https://arxiv.org/pdf/1910.01426.pdf) & [**AAAI2020**](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-MengN.6416.pdf) | [**TensorFlow**](https://github.com/monaen/LightFieldReconstruction) | **4D convolution, dense residual connection** | **LFCNN, PCA_rr, LFNet, resLF**, *VDSR, MSLapSRN, RDN, ESPCN, DUF* |
 | **LF-ATO** | [**CVPR2020**](https://arxiv.org/pdf/2004.02215.pdf) | [**PyTorch**](https://github.com/jingjin25/LFSSR-ATO) | **combinatorial geometry embedding, structural consistency regularization** | **PCA_rr, LFNet, GB, resLF**, *EDSR* |
 | **LF-InterNet** | [**ECCV2020**](https://arxiv.org/pdf/1912.07849.pdf) | [**PyTorch**](https://github.com/YingqianWang/LF-InterNet) | **spatial-angular interaction** | **LFBM5D, GB, LFSSR, resLF, LF-ATO**, *VDSR, EDSR, RCAN, SAN, SRGAN, ESRGAN* |
-| **LF-DFnet** | [**arXiv2020**](https://arxiv.org/pdf/2007.03535.pdf) |  | **angular deformable alignment module (ADAM), collect-and-distribute scheme** | **LFBM5D, GB, LFSSR, resLF, LF-InterNet**, *VDSR, EDSR, RCAN, ESRGAN* |
+
 
 ## Acknowledgement
 **We would like to thank [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussion and insightful advice regarding this work.**
