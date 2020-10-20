@@ -4,7 +4,7 @@
 
 ## Datasets
 #### A more comprehensive overview of LF datasets can be viewed through [**this link**](https://github.com/lightfield-analysis/resources). Here, we only list several popular datasets which are commonly used for LF image SR: 
-* **New light field image dataset (EPFL)**. [**website**](https://www.epfl.ch/labs/mmspg/downloads/epfl-light-field-image-dataset/); [**paper**](https://infoscience.epfl.ch/record/218363/files/Qomex2016_shortpaper.pdf?version=1)
+* **New light field image dataset (EPFL)**. [**website**](https://www.epfl.ch/labs/mmspg/downloads/epfl-light-field-image-dataset/); [**paper**](https://infoscience.epfl.ch/record/218363/files/Qomex2016_shortpaper.pdf?version=1); [**download through Baidu Drive**](https://pan.baidu.com/s/1175dV3Sj8y9K2FPYxjsuEg) (Keys:NUDT)
 * **Datasets and Benchmarks for Densely Sampled 4D Light Fields (HCIold)**. [**paper**](https://pdfs.semanticscholar.org/1a86/e03c229adb5b94e1f43f8508f033f74e94ae.pdf)
 * **4D Light Field Dataset (HCInew)**. [**website**](https://lightfield-analysis.uni-konstanz.de/); [**paper**](https://infoscience.epfl.ch/record/218363/files/Qomex2016_shortpaper.pdf?version=1)
 * **INRIA Light field dataset (INRIA)**. [**website**](https://www.irisa.fr/temics/demos/lightField/LowRank2/datasets/datasets.html); [**paper**](https://hal.archives-ouvertes.fr/hal-01720622/file/LFInpaintTIP.pdf)
