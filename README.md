@@ -36,6 +36,7 @@
 | **HDDRNet** | [**TPAMI2019**](https://arxiv.org/pdf/1910.01426.pdf) & [**AAAI2020**](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-MengN.6416.pdf) | [**TensorFlow**](https://github.com/monaen/LightFieldReconstruction) | **4D convolution, dense residual connection** | **LFCNN, PCA_rr, LFNet, resLF**, *VDSR, MSLapSRN, RDN, ESPCN, DUF* |
 | **LF-ATO** | [**CVPR2020**](https://arxiv.org/pdf/2004.02215.pdf) | [**PyTorch**](https://github.com/jingjin25/LFSSR-ATO) | **combinatorial geometry embedding, structural consistency regularization** | **PCA_rr, LFNet, GB, resLF**, *EDSR* |
 | **LF-InterNet** | [**ECCV2020**](https://arxiv.org/pdf/1912.07849.pdf) | [**PyTorch**](https://github.com/YingqianWang/LF-InterNet) | **spatial-angular interaction** | **LFBM5D, GB, LFSSR, resLF, LF-ATO**, *VDSR, EDSR, RCAN, SAN, SRGAN, ESRGAN* |
+| **LFDCSR**|[**Arxiv**](https://arxiv.org/abs/2009.12537)|    | Deep Selective Combinatorial Embedding andConsistency Regularization for Light FieldSuper-resolution | **Deep Selective Combinatorial Embedding** and **Consistency Regularization** |
 | **LF-DFnet** | [**TIP2020**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286855) | [**PyTorch**](https://github.com/YingqianWang/LF-DFnet) | **angular deformable alignment module** | **LFBM5D, GB, LFSSR, resLF, LF-InterNet**, *VDSR, EDSR, RCAN, ESRGAN* |
 | **LFSR-AFR** | [**TIP2021**](https://ieeexplore.ieee.org/document/9394760) | [**PyTorch**](https://github.com/keunsoo-ko/LFSR-AFR) | **Feature Remixing** | **LFCNN, GB, LFNet, LFSSR, resLF**, *RCAN* |
 
