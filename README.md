@@ -39,6 +39,7 @@
 | **LFDCSR**|[**Arxiv**](https://arxiv.org/abs/2009.12537)|    | **Deep Selective Combinatorial Embedding** and **Consistency Regularization** |  |
 | **LF-DFnet** | [**TIP2020**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286855) | [**PyTorch**](https://github.com/YingqianWang/LF-DFnet) | **angular deformable alignment module** | **LFBM5D, GB, LFSSR, resLF, LF-InterNet**, *VDSR, EDSR, RCAN, ESRGAN* |
 | **LFSR-AFR** | [**TIP2021**](https://ieeexplore.ieee.org/document/9394760) | [**PyTorch**](https://github.com/keunsoo-ko/LFSR-AFR) | **Feature Remixing** | **LFCNN, GB, LFNet, LFSSR, resLF**, *RCAN* |
+| **LF-ZSSR** | [**CVPR2021**](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_Light_Field_Super-Resolution_With_Zero-Shot_Learning_CVPR_2021_paper.pdf) |  | **Zero Shot** | **GBSQ, BM5D, resLF, ATO, InterNet**|
 
 ## Acknowledgement
 **We would like to thank [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussion and insightful advice regarding this work.**
