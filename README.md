@@ -5,9 +5,9 @@
 
 ## News & Updates:
 * **2021.12.09: New version is online.**
-
+<br><br><br>
 ## Methods from 2012 to 2022:
-
+<br>
 |    **Acronym**     |   **Publication** | **Official Repo** |
 | :-----------------------: |  :-----: | :-------: |
 |                 |  The light field camera: extended depth of field, aliasing, and superresolution, [TPAMI, 2012](https://ieeexplore.ieee.org/abstract/document/5989827/).  | -- |
@@ -24,12 +24,12 @@
 | **LFSSR-SAS**    | Light field spatial super-resolution using deep efficient spatial-angular separable convolution, [TIP 2018](https://ieeexplore.ieee.org/document/8561240) | [jingjin25/<br/>LFSSR-SAS-PyTorch](https://github.com/jingjin25/LFSSR-SAS-PyTorch) |
 | **EPGB** | Light field super-resolution using edge-preserved graph-based regularization, [TMM 2019](https://ieeexplore.ieee.org/document/8861391).| -- |
 | **LF-FusNet** | Light field super-resolution by jointly exploiting internal and external similarities, [TCSVT 2019](https://ieeexplore.ieee.org/abstract/document/8733069). | [Joechann0831/<br/>LFSR-FusNet](https://github.com/Joechann0831/LFSR-FusNet) |
-| --- | An epipolar volume autoencoder with adversarial loss for deep light field super-resolution, [CVPRW 2019](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Zhu_An_Epipolar_Volume_Autoencoder_With_Adversarial_Loss_for_Deep_Light_CVPRW_2019_paper.pdf)** | [MinchenZKN/<br/>LFSR](https://github.com/MinchenZKN/LFSR) |
+| --- | An epipolar volume autoencoder with adversarial loss for deep light field super-resolution, [CVPRW 2019](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Zhu_An_Epipolar_Volume_Autoencoder_With_Adversarial_Loss_for_Deep_Light_CVPRW_2019_paper.pdf) | [MinchenZKN/<br/>LFSR](https://github.com/MinchenZKN/LFSR) |
 | **resLF**      | Residual networks for light field image super-resolution, [CVPR 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Residual_Networks_for_Light_Field_Image_Super-Resolution_CVPR_2019_paper.pdf) | [shuozh/resLF](https://github.com/shuozh/resLF) |
 | **HDDRNet**     | High-dimensional dense residual convolutional neural network for light field reconstruction, [TPAMI 2019](https://arxiv.org/pdf/1910.01426.pdf)| [monaen/<br/>LightFieldReconstruction](https://github.com/monaen/LightFieldReconstruction)
 | **LF-InterNet** | Spatial-angular interaction for light field image super-resolution, [ECCV 2020](https://arxiv.org/pdf/1912.07849.pdf) | [YingqianWang/<br/>LF-InterNet](https://github.com/YingqianWang/LF-InterNet) |
 | **LF-ATO**  | Light field spatial super-resolution via deep combinatorial geometry embedding and structural consistency regularization, [CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jin_Light_Field_Spatial_Super-Resolution_via_Deep_Combinatorial_Geometry_Embedding_and_CVPR_2020_paper.pdf) | [jingjin25/<br/>LFSSR-ATO](https://github.com/jingjin25/LFSSR-ATO) |
-| **LFDCSR**| Deep selective combinatorial embedding and consistency regularization for light field super-resolution, [arxiv 2020](https://arxiv.org/abs/2009.12537)** | -- |
+| **LFDCSR**| Deep selective combinatorial embedding and consistency regularization for light field super-resolution, [arxiv 2020](https://arxiv.org/abs/2009.12537) | -- |
 | **LF-DFnet**    | Light field image super-resolution using deformable convolution, [TIP 2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286855) | [YingqianWang/<br/>LF-DFnet](https://github.com/YingqianWang/LF-DFnet) |
 | **LF-ZSSR** | Light field super-resolution with zero-shot learning, [CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_Light_Field_Super-Resolution_With_Zero-Shot_Learning_CVPR_2021_paper.pdf) | [Joechann0831/<br/>LFZSSR](https://github.com/Joechann0831/LFZSSR) |
 | **LFSR-AFR** | Light field super-resolution via adaptive feature remixing, [TIP 2021](https://ieeexplore.ieee.org/document/9394760/). | [keunsoo-ko/<br/>LFSR-AFR](https://github.com/keunsoo-ko/LFSR-AFR) |
