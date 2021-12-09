@@ -8,8 +8,8 @@
 
 ## Methods from 2012 to 2022:
 
-|    **Method Acronym**     |   **Publication** | **Official Repo** |
-| :------------: |  :-----: | :-------: |
+|    **Acronym**     |   **Publication** | **Official Repo** |
+| :-----------------------: |  :-----: | :-------: |
 |                 |  The light field camera: extended depth of field, aliasing, and superresolution, [TPAMI, 2012](https://ieeexplore.ieee.org/abstract/document/5989827/).  | -- |
 |                 |  Spatial and Angular Variational Super-Resolution of 4D Light Fields, [ECCV 2012](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ECCV-2012/papers/7576/75760608.pdf).  | -- |
 |                 |  Variational Light Field Analysis for Disparity Estimation and Super-Resolution, [TPAMI 2013](https://ieeexplore.ieee.org/document/6574844).   | -- |
