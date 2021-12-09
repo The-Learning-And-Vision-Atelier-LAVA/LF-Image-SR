@@ -8,6 +8,7 @@
 <br><br><br>
 ## Methods from 2012 to 2022:
 <br>
+
 |    **Acronym**     |   **Publication** | **Official Repo** |
 | :-----------------------: |  :-----: | :-------: |
 |                 |  The light field camera: extended depth of field, aliasing, and superresolution, [TPAMI, 2012](https://ieeexplore.ieee.org/abstract/document/5989827/).  | -- |
