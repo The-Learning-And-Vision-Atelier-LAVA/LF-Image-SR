@@ -1,10 +1,10 @@
 ### <img src="https://raw.github.com/YingqianWang/Awesome-LF-Image-SR/master/Fig/Thumbnail.jpg" width="1000">
-#### *With recent advances in camera manufacturing, light field (LF) imaging technology becomes increasingly popular and is commonly used in various applications such as mobile phones, biological microscope, VR/AR etc. Since both intensity and directions of light rays are recorded by LF cameras, the resolution of LF images can be enhanced by using these additional angular information. LF image super-resolution (SR), also known as LF spatial SR, aims at reconstructing high-resolution (HR) LF images from their low-resolution (LR) counterparts. In this repository, we present a collection of papers on LF image SR, together with their codes and repos.* <br>
+#### With recent advances in camera manufacturing, light field (LF) imaging technology becomes increasingly popular and is commonly used in various applications such as mobile phones, biological microscope, VR/AR etc. Since both intensity and directions of light rays are recorded by LF cameras, the resolution of LF images can be enhanced by using these additional angular information. LF image super-resolution (SR), also known as LF spatial SR, aims at reconstructing high-resolution (HR) LF images from their low-resolution (LR) counterparts. In this repository, we present a collection of papers on LF image SR, together with their codes and repos. <br>
 #### Note: This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
 <br>
 
 ## News: 
-***We recommend our newly-released repo [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use PyTorch-based LF image SR toolbox for the communities to re-impolement and benchmark existing methods. Thanks [Zhengyu](https://github.com/ZhengyuLiang24) for the hard work!***<br><br>
+**We recommend our newly-released repo [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use PyTorch-based LF image SR toolbox for the communities to re-impolement and benchmark existing methods. Thanks [Zhengyu](https://github.com/ZhengyuLiang24) for the hard work!**<br><br>
 
 ## Updates:
 * **2021.12.09: New version is online, more recent methods such as DDAN, LF-IINet and LFT are included.**<br><br><br>
