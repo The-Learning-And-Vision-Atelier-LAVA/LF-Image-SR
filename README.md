@@ -4,7 +4,7 @@
 <br>
 
 ## News: 
-**We recommend our newly-released repo [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use PyTorch-based LF image SR toolbox for the communities to re-impolement and benchmark existing methods. Thanks [Zhengyu](https://github.com/ZhengyuLiang24) for the hard work!**<br><br>
+**We recommend our newly-released repository [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use PyTorch-based LF image SR toolbox. Both this repo and [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR) are developed to make the communities better get access to this area and re-impolement/benchmark existing methods. Thanks [Zhengyu](https://github.com/ZhengyuLiang24) for the hard work!**<br><br>
 
 ## Updates:
 * **2021.12.09: New version is online, more recent methods such as DDAN, LF-IINet and LFT are included.**<br><br><br>
