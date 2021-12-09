@@ -4,13 +4,13 @@
 
 
 ## News & Updates:
-* **2021.12.09: We have reorganized our repo to include more recent works.**
+* **2021.12.09: New version is online.**
 
-## Survey:
+## Methods from 2012 to 2022:
 
 |    **Method Acronym**     |   **Publication** | **Official Repo** |
 | :------------: |  :-----: | :-------: |
-|                 |  The Light Field Camera: Extended Depth of Field, Aliasing, and Superresolution, [TPAMI, 2012](https://ieeexplore.ieee.org/abstract/document/5989827/).  | -- |
+|                 |  The light field camera: extended depth of field, aliasing, and superresolution, [TPAMI, 2012](https://ieeexplore.ieee.org/abstract/document/5989827/).  | -- |
 |                 |  Spatial and Angular Variational Super-Resolution of 4D Light Fields, [ECCV 2012](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ECCV-2012/papers/7576/75760608.pdf).  | -- |
 |                 |  Variational Light Field Analysis for Disparity Estimation and Super-Resolution, [TPAMI 2013](https://ieeexplore.ieee.org/document/6574844).   | -- |
 | **LFCNN**       |  Learning a Deep Convolutional Network for Light-Field Image Super-Resolution, [ICCVW 2015](https://openaccess.thecvf.com/content_iccv_2015_workshops/w3/papers/Yoon_Learning_a_Deep_ICCV_2015_paper.pdf)<br> Light-Field Image Super-Resolution Using Convolutional Neural Network, [SPL 2017](https://ieeexplore.ieee.org/abstract/document/7856946/) | [youngjinYoon/SPL_LF_SR](https://github.com/youngjinYoon/SPL_LF_SR)  |
