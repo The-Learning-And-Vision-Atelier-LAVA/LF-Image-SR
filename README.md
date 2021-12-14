@@ -6,8 +6,10 @@
 ## News: 
 **We recommend our newly-released repository [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use toolbox for LF image SR. Both this repo and [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR) are developed to make the communities better get access to this area and re-impolement existing methods.**
 
-## Updates:
-* **2021.12.09: New version is online, more recent methods such as DDAN, LF-IINet and LFT are included.**<br><br><br>
+## Recent Updates:
+* **2021.12.14: Add a new work published on [IEEE SPL](https://ieeexplore.ieee.org/document/9647864).**
+* **2021.12.09: New version is online, more recent methods such as DDAN, LF-IINet and LFT are included.**
+<br><br><br>
 
 ## Methods from 2012 to 2022:
 <br>
@@ -41,6 +43,8 @@
 | **DDAN**     | Dense dual-attention network for light field image super-resolution, [TCSVT 2021](https://arxiv.org/pdf/2110.12114.pdf). | -- |
 | **LF-IINet**     | Intra-inter view interaction network for light field image super-resolution, [TMM 2021](https://ieeexplore.ieee.org/document/9599365). | [GaoshengLiu/<br/>LF-IINet](https://github.com/GaoshengLiu/LF-IINet) |
 | **LFT**     | Light field image super-resolution with Transformers, [arxiv 2021](https://arxiv.org/pdf/2108.07597.pdf). | [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) |
+| --     | Cooperative Light-Field Image Super-Resolution based on Multi-Modality Embedding and Fusion with Frequency Attention, [SPL 2021](https://ieeexplore.ieee.org/document/9647864). | -- |
+
 
 ## Acknowledgement
 **We would like to thank [Zhengyu Liang](https://github.com/ZhengyuLiang24) and [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussions and insightful suggestions regarding this repository.**
