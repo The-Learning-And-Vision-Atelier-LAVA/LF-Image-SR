@@ -3,11 +3,11 @@
 #### Note: This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
 
 ## News: 
-**We recommend our newly-released repository [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use toolbox for LF image SR. Both this repo and [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR) are developed to make the communities better get access to this area and re-impolement existing methods.**
+**We recommend our newly-released repository [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use toolbox for LF image SR. Both this repo and [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR) are developed to make the communities better get access to this area and re-implement existing methods.**
 
 ## Recent Updates:
-* **2021.12.14: Add a new work published on [IEEE SPL](https://ieeexplore.ieee.org/document/9647864).**
-* **2021.12.09: New version is online, more recent methods such as DDAN, LF-IINet and LFT are included.**
+* **2022.01.04: Add a new work [BITszwang/DPT](https://github.com/BITszwang/DPT) that is accepted to [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf).**
+* **2021.12.09: New version is online, more recent methods such as [LF-IINet](https://github.com/GaoshengLiu/LF-IINet) and [LFT](https://github.com/ZhengyuLiang24/LFT) are included.**
 
 ## Methods from 2012 to 2022:
 <br>
@@ -48,5 +48,5 @@
 **We would like to thank [Zhengyu Liang](https://github.com/ZhengyuLiang24) and [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussions and insightful suggestions regarding this repository.**
 
 ## Contact
-**Any question regarding this repo can be addressed to wangyingqian16@nudt.edu.cn.**
+**Any question regarding this repo can be addressed to yingqian.wang@outlook.com.**
 
