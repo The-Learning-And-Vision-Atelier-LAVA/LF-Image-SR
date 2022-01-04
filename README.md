@@ -42,7 +42,7 @@
 | **LF-IINet**     | Intra-inter view interaction network for light field image super-resolution, [TMM 2021](https://ieeexplore.ieee.org/document/9599365). | [GaoshengLiu/<br/>LF-IINet](https://github.com/GaoshengLiu/LF-IINet) |
 | **LFT**     | Light field image super-resolution with Transformers, [arxiv 2021](https://arxiv.org/pdf/2108.07597.pdf). | [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) |
 | --     | Cooperative Light-Field Image Super-Resolution based on Multi-Modality Embedding and Fusion with Frequency Attention, [SPL 2021](https://ieeexplore.ieee.org/document/9647864). | -- |
-
+| **DPT**     | Detail-Preserving Transformer for Light Field Image Super-Resolution, [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf). | [BITszwang/DPT](https://github.com/BITszwang/DPT) |
 
 ## Acknowledgement
 **We would like to thank [Zhengyu Liang](https://github.com/ZhengyuLiang24) and [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussions and insightful suggestions regarding this repository.**
