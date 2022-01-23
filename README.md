@@ -6,8 +6,9 @@
 **We recommend our newly-released repository [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use toolbox for LF image SR. Both this repo and [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR) are developed to make the communities better get access to this area and re-implement existing methods.**
 
 ## Recent Updates:
+* **2022.01.23: Update [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) that is accepted by [IEEE SPL](https://arxiv.org/pdf/2108.07597.pdf).**
 * **2022.01.04: Add a new work [BITszwang/DPT](https://github.com/BITszwang/DPT) that is accepted to [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf).**
-* **2021.12.09: New version is online, more recent methods such as [LF-IINet](https://github.com/GaoshengLiu/LF-IINet) and [LFT](https://github.com/ZhengyuLiang24/LFT) are included.**
+* **2021.12.09: New version is online, more recent methods are included.**
 
 ## Methods from 2012 to 2022:
 <br>
@@ -40,9 +41,9 @@
 | **MEG-Net**     | End-to-end light field spatial super-resolution network using multiple epipolar geometry, [TIP 2021](https://ieeexplore.ieee.org/abstract/document/9465683). | [shuozh/MEG-Net](https://github.com/shuozh/MEG-Net) |
 | **DDAN**     | Dense dual-attention network for light field image super-resolution, [TCSVT 2021](https://arxiv.org/pdf/2110.12114.pdf). | -- |
 | **LF-IINet**     | Intra-inter view interaction network for light field image super-resolution, [TMM 2021](https://ieeexplore.ieee.org/document/9599365). | [GaoshengLiu/<br/>LF-IINet](https://github.com/GaoshengLiu/LF-IINet) |
-| **LFT**     | Light field image super-resolution with Transformers, [arxiv 2021](https://arxiv.org/pdf/2108.07597.pdf). | [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) |
 | --     | Cooperative Light-Field Image Super-Resolution based on Multi-Modality Embedding and Fusion with Frequency Attention, [SPL 2021](https://ieeexplore.ieee.org/document/9647864). | -- |
 | **DPT**     | Detail-Preserving Transformer for Light Field Image Super-Resolution, [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf). | [BITszwang/DPT](https://github.com/BITszwang/DPT) |
+| **LFT**     | Light field image super-resolution with Transformers, [SPL 2022](https://arxiv.org/pdf/2108.07597.pdf). | [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) |
 
 ## Acknowledgement
 **We would like to thank [Zhengyu Liang](https://github.com/ZhengyuLiang24) and [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussions and insightful suggestions regarding this repository.**
