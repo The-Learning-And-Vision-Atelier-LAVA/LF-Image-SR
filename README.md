@@ -43,6 +43,7 @@
 | **DDAN**     | Dense dual-attention network for light field image super-resolution, [TCSVT 2021](https://arxiv.org/pdf/2110.12114.pdf). | -- |
 | **LF-IINet**     | Intra-inter view interaction network for light field image super-resolution, [TMM 2021](https://ieeexplore.ieee.org/document/9599365). | [GaoshengLiu/<br/>LF-IINet](https://github.com/GaoshengLiu/LF-IINet) |
 | --     | Cooperative Light-Field Image Super-Resolution based on Multi-Modality Embedding and Fusion with Frequency Attention, [SPL 2021](https://ieeexplore.ieee.org/document/9647864). | -- |
+| ---     | Texture-enhanced Light Field Super-resolution with Spatio-Angular Decomposition Kernels, [TIM 2022](https://arxiv.org/pdf/2111.04069.pdf). | --- |
 | **DPT**     | Detail-Preserving Transformer for Light Field Image Super-Resolution, [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf). | [BITszwang/DPT](https://github.com/BITszwang/DPT) |
 | **LFT**     | Light field image super-resolution with Transformers, [SPL 2022](https://arxiv.org/pdf/2108.07597.pdf). | [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) |
 | **DistgSSR**     | Disentangling Light Fields for Super-Resolution and Disparity Estimation, [TPAMI 2022](https://arxiv.org/pdf/2202.10603.pdf). | [YingqianWang/DistgSSR](https://github.com/YingqianWang/DistgSSR) |
