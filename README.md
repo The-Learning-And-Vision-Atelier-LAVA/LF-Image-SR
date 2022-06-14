@@ -6,6 +6,7 @@
 **We recommend our newly-released repository [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use toolbox for LF image SR. Both this repo and [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR) are developed to make the communities better get access to this area and re-implement existing methods.**
 
 ## Recent Updates:
+* **2022.06.14: Add a new work [YingqianWang/LF-DAnet](https://github.com/YingqianWang/LF-DAnet).**
 * **2022.02.17: Add a new work [YingqianWang/DistgSSR](https://github.com/YingqianWang/DistgSSR) that is accepted to [TPAMI](https://arxiv.org/pdf/2202.10603.pdf).**
 * **2022.01.23: Update [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) that is accepted by [IEEE SPL](https://arxiv.org/pdf/2108.07597.pdf).**
 * **2022.01.04: Add a new work [BITszwang/DPT](https://github.com/BITszwang/DPT) that is accepted to [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf).**
@@ -47,6 +48,7 @@
 | **DPT**     | Detail-Preserving Transformer for Light Field Image Super-Resolution, [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf). | [BITszwang/DPT](https://github.com/BITszwang/DPT) |
 | **LFT**     | Light field image super-resolution with Transformers, [SPL 2022](https://arxiv.org/pdf/2108.07597.pdf). | [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) |
 | **DistgSSR**     | Disentangling Light Fields for Super-Resolution and Disparity Estimation, [TPAMI 2022](https://arxiv.org/pdf/2202.10603.pdf). | [YingqianWang/DistgSSR](https://github.com/YingqianWang/DistgSSR) |
+| **LF-DAnet**     | Learning a Degradation-Adaptive Network for Light Field Image Super-Resolution, [arXiv 2022](https://arxiv.org/pdf/2206.06214.pdf). | [YingqianWang/LF-DAnet](https://github.com/YingqianWang/LF-DAnet) |
 
 ## Acknowledgement
 **We would like to thank [Zhengyu Liang](https://github.com/ZhengyuLiang24) and [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussions and insightful suggestions regarding this repository.**
