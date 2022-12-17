@@ -1,58 +1,87 @@
-### <img src="https://raw.github.com/YingqianWang/Awesome-LF-Image-SR/master/Fig/Thumbnail.jpg" width="1000">
-#### With recent advances in camera manufacturing, light field (LF) imaging technology becomes increasingly popular and is commonly used in various applications such as mobile phones, biological microscope, VR/AR etc. Since both intensity and directions of light rays are recorded by LF cameras, the resolution of LF images can be enhanced by using these additional angular information. LF image super-resolution (SR), also known as LF spatial SR, aims at reconstructing high-resolution (HR) LF images from their low-resolution (LR) counterparts. In this repository, we present a collection of papers on LF image SR, together with their codes and repos. <br>
-#### Note: This repository will be updated on a regular basis, so stay tuned~~🎉🎉🎉
+# NTIRE 2023: Light Field Image Super-Resolution Challenge <br> 
+<p align="center">  <img src="https://raw.github.com/YingqianWang/Awesome-LF-Image-SR/master/Fig/Thumbnail.jpg" width="1000"> </p>
 
-## News: 
-**We recommend our newly-released repository [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR), which is an open-source and easy-to-use toolbox for LF image SR. Both this repo and [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR) are developed to make the communities better get access to this area and re-implement existing methods.**
+**Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire23/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
 
-## Recent Updates:
-* **2022.06.14: Add a new work [YingqianWang/LF-DAnet](https://github.com/YingqianWang/LF-DAnet).**
-* **2022.02.17: Add a new work [YingqianWang/DistgSSR](https://github.com/YingqianWang/DistgSSR) that is accepted to [TPAMI](https://arxiv.org/pdf/2202.10603.pdf).**
-* **2022.01.23: Update [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) that is accepted by [IEEE SPL](https://arxiv.org/pdf/2108.07597.pdf).**
-* **2022.01.04: Add a new work [BITszwang/DPT](https://github.com/BITszwang/DPT) that is accepted to [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf).**
-* **2021.12.09: New version is online, more recent methods are included.**
 
-## Methods from 2012 to 2022:
-<br>
+## News and Updates:
+* **2022-12-16**: The proposal for LF image SR challenge is approved.
 
-|    **Acronym**     |   **Publication** | **Official Repo** |
-| :-----------------------: |  :-----: | :-------: |
-|                 |  The light field camera: extended depth of field, aliasing, and superresolution, [TPAMI, 2012](https://ieeexplore.ieee.org/abstract/document/5989827/).  | -- |
-|      --         |  Spatial and angular vriational super-resolution of 4D light fields, [ECCV 2012](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ECCV-2012/papers/7576/75760608.pdf).  | -- |
-|      --         |  Variational light field analysis for disparity estimation and super-resolution, [TPAMI 2013](https://ieeexplore.ieee.org/document/6574844).   | -- |
-| **LFCNN**       |  Learning a deep convolutional network for light-field image super-resolution, [ICCVW 2015](https://openaccess.thecvf.com/content_iccv_2015_workshops/w3/papers/Yoon_Learning_a_Deep_ICCV_2015_paper.pdf); Light field image super-resolution using convolutional neural network, [SPL 2017](https://ieeexplore.ieee.org/abstract/document/7856946/) | [youngjinYoon/<br/>SPL_LF_SR](https://github.com/youngjinYoon/<br>SPL_LF_SR)  |
-| **PCA_rr**      | Super resolution of light field images using linear subspace projection of patch-volumes, [JSTSP 2017](https://hal.archives-ouvertes.fr/hal-01591488/file/lightfield_SR_v02.pdf) | -- | 
-| **LFSR_Gul**  | Spatial and angular resolution enhancement of light fields using convolutional neural networks, [TIP 2018](https://arxiv.org/pdf/1707.00815) | -- | 
-| **GB** | Light field super-resolution via graph-based regularization, [TIP 2018](https://arxiv.org/pdf/1701.02141) | [rossimattia/<br/>light-field-super-resolution](https://github.com/rossimattia/light-field-super-resolution)  |
-| **LFNet** | LFNet: A Novel Bidirectional Recurrent Convolutional Neural Network for Light-Field Image Super-Resolution, [TIP 2018](https://ieeexplore.ieee.org/document/8356655) | [wylcasia/LFNet](https://github.com/wylcasia/LFNet)
-| **LRP** | Light field super-resolution using a low-rank prior and deep convolutional neural networks, [TPAMI 2018](https://arxiv.org/pdf/1801.04314) | -- |
-| **LFBM5D** | Light field super-resolution via LFBM5D sparse coding, [ICIP 2018](https://v-sense.scss.tcd.ie/wp-content/uploads/2018/05/LFBM5D_SR.pdf) | [V-Sense/<br/>LFBM5D](https://github.com/V-Sense/LFBM5D/tree/SR) |
-| **LF-DCNN** | Light-field image superresolution using a combined deep CNN based on EPI， [SPL 2018](https://ieeexplore.ieee.org/document/8411485). | -- |
-| **LFSSR-SAS**    | Light field spatial super-resolution using deep efficient spatial-angular separable convolution, [TIP 2018](https://ieeexplore.ieee.org/document/8561240) | [jingjin25/<br/>LFSSR-SAS-PyTorch](https://github.com/jingjin25/LFSSR-SAS-PyTorch) |
-| **EPGB** | Light field super-resolution using edge-preserved graph-based regularization, [TMM 2019](https://ieeexplore.ieee.org/document/8861391).| -- |
-| **LF-FusNet** | Light field super-resolution by jointly exploiting internal and external similarities, [TCSVT 2019](https://ieeexplore.ieee.org/abstract/document/8733069). | [Joechann0831/<br/>LFSR-FusNet](https://github.com/Joechann0831/LFSR-FusNet) |
-| --- | An epipolar volume autoencoder with adversarial loss for deep light field super-resolution, [CVPRW 2019](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Zhu_An_Epipolar_Volume_Autoencoder_With_Adversarial_Loss_for_Deep_Light_CVPRW_2019_paper.pdf) | [MinchenZKN/<br/>LFSR](https://github.com/MinchenZKN/LFSR) |
-| **resLF**      | Residual networks for light field image super-resolution, [CVPR 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Residual_Networks_for_Light_Field_Image_Super-Resolution_CVPR_2019_paper.pdf) | [shuozh/resLF](https://github.com/shuozh/resLF) |
-| **HDDRNet**     | High-dimensional dense residual convolutional neural network for light field reconstruction, [TPAMI 2019](https://arxiv.org/pdf/1910.01426.pdf)| [monaen/<br/>LightFieldReconstruction](https://github.com/monaen/LightFieldReconstruction)
-| **LF-InterNet** | Spatial-angular interaction for light field image super-resolution, [ECCV 2020](https://arxiv.org/pdf/1912.07849.pdf) | [YingqianWang/<br/>LF-InterNet](https://github.com/YingqianWang/LF-InterNet) |
-| **LF-ATO**  | Light field spatial super-resolution via deep combinatorial geometry embedding and structural consistency regularization, [CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jin_Light_Field_Spatial_Super-Resolution_via_Deep_Combinatorial_Geometry_Embedding_and_CVPR_2020_paper.pdf) | [jingjin25/<br/>LFSSR-ATO](https://github.com/jingjin25/LFSSR-ATO) |
-| **LFDCSR**| Deep selective combinatorial embedding and consistency regularization for light field super-resolution, [arxiv 2020](https://arxiv.org/abs/2009.12537) | -- |
-| **LF-DFnet**    | Light field image super-resolution using deformable convolution, [TIP 2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286855) | [YingqianWang/<br/>LF-DFnet](https://github.com/YingqianWang/LF-DFnet) |
-| **LF-ZSSR** | Light field super-resolution with zero-shot learning, [CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_Light_Field_Super-Resolution_With_Zero-Shot_Learning_CVPR_2021_paper.pdf) | [Joechann0831/<br/>LFZSSR](https://github.com/Joechann0831/LFZSSR) |
-| **LFSR-AFR** | Light field super-resolution via adaptive feature remixing, [TIP 2021](https://ieeexplore.ieee.org/document/9394760/). | [keunsoo-ko/<br/>LFSR-AFR](https://github.com/keunsoo-ko/LFSR-AFR) |
-| **MEG-Net**     | End-to-end light field spatial super-resolution network using multiple epipolar geometry, [TIP 2021](https://ieeexplore.ieee.org/abstract/document/9465683). | [shuozh/MEG-Net](https://github.com/shuozh/MEG-Net) |
-| **DDAN**     | Dense dual-attention network for light field image super-resolution, [TCSVT 2021](https://arxiv.org/pdf/2110.12114.pdf). | -- |
-| **LF-IINet**     | Intra-inter view interaction network for light field image super-resolution, [TMM 2021](https://ieeexplore.ieee.org/document/9599365). | [GaoshengLiu/<br/>LF-IINet](https://github.com/GaoshengLiu/LF-IINet) |
-| --     | Cooperative Light-Field Image Super-Resolution based on Multi-Modality Embedding and Fusion with Frequency Attention, [SPL 2021](https://ieeexplore.ieee.org/document/9647864). | -- |
-| **DKNet**   | Texture-enhanced Light Field Super-resolution with Spatio-Angular Decomposition Kernels, [TIM 2022](https://arxiv.org/pdf/2111.04069.pdf). | [huzexi/DKNet](https://github.com/huzexi/DKNet) |
-| **DPT**     | Detail-Preserving Transformer for Light Field Image Super-Resolution, [AAAI 2022](https://arxiv.org/pdf/2201.00346.pdf). | [BITszwang/DPT](https://github.com/BITszwang/DPT) |
-| **LFT**     | Light field image super-resolution with Transformers, [SPL 2022](https://arxiv.org/pdf/2108.07597.pdf). | [ZhengyuLiang24/LFT](https://github.com/ZhengyuLiang24/LFT) |
-| **DistgSSR**     | Disentangling Light Fields for Super-Resolution and Disparity Estimation, [TPAMI 2022](https://arxiv.org/pdf/2202.10603.pdf). | [YingqianWang/DistgSSR](https://github.com/YingqianWang/DistgSSR) |
-| **LF-DAnet**     | Learning a Degradation-Adaptive Network for Light Field Image Super-Resolution, [arXiv 2022](https://arxiv.org/pdf/2206.06214.pdf). | [YingqianWang/LF-DAnet](https://github.com/YingqianWang/LF-DAnet) |
+## Introduction
+With recent advances in camera manufacturing, light field (LF) imaging technology becomes increasingly popular and is commonly used in various applications such as mobile phones, biological microscope, VR/AR etc. Since both intensity and directions of light rays are recorded by LF cameras, the resolution of LF images can be enhanced by using these additional angular information. LF image super-resolution (SR), also known as LF spatial SR, aims at reconstructing high-resolution (HR) LF images from their low-resolution (LR) counterparts. 
 
-## Acknowledgement
-**We would like to thank [Zhengyu Liang](https://github.com/ZhengyuLiang24) and [Zhen Cheng](https://github.com/Joechann0831) for the helpful discussions and insightful suggestions regarding this repository.**
+Jointly with the NTIRE workshop, we have a challenge for LF community to focus on enhancing the spatial resolution of LF images, and aspire to highlight the specific challenges and research problems faced by LF image SR. This challenge provides an opportunity for researchers to work together to share their knowledge and insights, advance the algorithm performance, and promote the development of LF image SR.
 
-## Contact
-**Any question regarding this repo can be addressed to yingqian.wang@outlook.com.**
+
+## Challenge Overview
+The objective of this challenge is to reconstruct high-resolution (HR) LF images from their low-resolution (LR) counterparts.
+
+During the model development phase, the training set and the validation set will be released. Both HR LF images and their LR counterparts in the training and validation sets are available. The participants can train their models on the training set and can evaluate their models with the validation set.
+
+During the test phase, the test set will be released, which includes LR LF images only. Challenge participants should apply their trained models to the LR test images to generate super-resolved test images. These super-resolved images will then be submitted by the participants and evaluated by the organizers with a set of objective quantitative metrics.
+
+
+## Datasets
+### Training Set: *[[Baidu Drive](https://pan.baidu.com/s/1mYQR6OBXoEKrOk0TjV85Yw) (key:7nzy) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EpkUehGwOlFIuSSdadq9S4MBEeFkNGPD_DlzkBBmZaV_mA?e=FiUeiv)]*
+
+This challenge follows the training set in the paper [LF-InterNet](https://arxiv.org/pdf/1912.07849), and uses the EPFL, HCInew, HCIold, INRIA and STFgantry datasets consisting of 144 scenes for training. All the LF images in the training set have an angular resolution of 9x9. Both HR LF images and their LR versions (produced by bicubic downsampling) are released. The participants can use these HR LF images as groundtruths to train their models. More details of the training set can be refered to [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR). 
+
+
+### Validation Set: *[[Baidu Drive]() (key:) or [OneDrive]()]*
+
+We collect a new validation set consisting of 10 synthetic scenes blended by the 3Ds MAX software and 10 real-world images captured by a Lytro ILLUM camera. Both HR and LR images with an angular resolution of 5x5 in the validation set are provided. The participants can download the validation set to evaluate the performance of their developed models by comparing their super-resolved images with the HR groundtruth images. **Note that, the validation set should be used for validation purpose only but cannot be used as additional training data.** The participants are encouraged to write papers to describe their methods and use the released validation set for performance evaluation.
+
+
+### Test Set: *[[download LR test data](https://www.jianguoyun.com/p/DWQY4hYQwOebChjh37QE)]*
+
+We collect a new test set consisting of 10 synthetic scenes blended by the 3Ds MAX software and 10 real-world images captured by a Lytro ILLUM camera. Different from the training and validation sets, only LR LF images with an angular resolution of 5x5 will be released. The participants are required to apply their models to the released LR LF images and submit their super-resolved images to the CodaLab platform for metrics scoring. **It should be noted that the images in the test set (even the LR versions) cannot be used for training.**
+
+
+## Evaluation Metrics
+We evaluate the submitted results by comparing them with the ground truth LF image pairs. To measure the fidelity, we use the standard Peak Signal to Noise Ratio (PSNR) and, complementarily, the Structural Similarity (SSIM) index as they are often employed in the literature. PSNR and SSIM implementations can be found in most of the image processing toolboxes. **We report the submissions over the synthetic and real-world images in the test sets, and rank the submissions according to the average PSNR values.**
+The SSIM metrics will not affect submission rankings but will be used to review the strengths and weaknesses of suggested methods in the final challenge report. 
+
+
+## Baseline Model
+Over the last few years, several milestone methods have been developed for LF image SR, including [LF-InterNet](https://github.com/YingqianWang/LF-InterNet), [LF-DFnet](https://github.com/YingqianWang/LF-DFnet),  [MEG-Net](https://github.com/shuozh/MEG-Net), [LFT](https://github.com/ZhengyuLiang24/LFT) and [DistgSSR](https://github.com/YingqianWang/DistgSSR). In this challenge, **LF-InterNet** is used as a baseline model and the submitted results should be at least on par with LF-InterNet. The solutions with PSNR values lower than LF-InterNet will not be ranked in the leaderboard.
+
+
+### PSNR and SSIM values achieved by baseline methods on the validation set for 4xSR:
+| Method | PSNR (avg)  |  PSNR (syn)  | PSNR (real)  || SSIM (avg)  |  SSIM (syn)  | SSIM (real)  |
+|:------:|  :--------: | :--------: | :---------: | :-------: | :-------: | :-------: | :-------: |
+| Bicubic       | 
+| LF-InterNet   | 
+
+## Submission
+We use [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/1598) for online submission in the development phase. **Here, we provide an example ([Jianguoyun Drive](https://www.jianguoyun.com/p/DXWimH4QwOebChipxasE) or [Google Drive](https://drive.google.com/file/d/1gyaan54AwbAYLIIA1rly_wrLzdyQ7VAh/view?usp=sharing)) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.stereosr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/1598) for details of the submission rules.
+
+## Important Dates
+* 2022-12-16: The proposal for LF image SR challenge is approved;
+
+
+## Group number policy
+Each group cannot have more than six group members (i.e., 1 to 6 group members is OK), and each paricipant can only join one group. Each group can only submit one algorithm for final ranking.
+
+
+## Issues and Questions:
+For any question regarding this challenge, raise an issue under this repository. <br>
+You can also join our WeChat group by scanning the code below:
+
+<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/Stereo-Image-SR/NTIRE2022/Fig/WeChat.jpg" width="30%"> </p>
+
+## Organizers:
+* [**Yulan Guo**](http://yulanguo.me/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
+* [**Longguang Wang**](https://longguangwang.github.io/) ([wanglongguang15@nudt.edu.cn](wanglongguang15@nudt.edu.cn))
+* [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
+* [**Juncheng Li**](https://junchenglee.com/) ([junchengli@math.cuhk.edu.hk](junchengli@math.cuhk.edu.hk))
+* [**Shuhang Gu**](https://shuhanggu.github.io/) ([shuhanggu@gmail.com](shuhanggu@gmail.com))
+* [**Radu Timofte**](https://people.ee.ethz.ch/~timofter/) ([Radu.Timofte@vision.ee.ethz.ch](Radu.Timofte@vision.ee.ethz.ch))
+
+## Acknowledgement:
+We would like to thank **<a href="https://www.flickr.com/photos/stereotron/" target="_blank">Sascha Becher</a>**
+ and **<a href="https://www.flickr.com/photos/tombentz" target="_blank">Tom Bentz</a>** for the approval of using their cross-eye stereo photographs. <br>
+
+## NTIRE 2022 Terms and Conditions:
+The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/1598#learn_the_details-terms_and_conditions).
+
 
