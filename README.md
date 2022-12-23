@@ -1,5 +1,5 @@
 # NTIRE 2023: Light Field Image Super-Resolution Challenge <br> 
-<p align="center">  <img src="https://raw.githubusercontent.com/YingqianWang/LF-Image-SR/NTIRE2023/Fig/logo.jpg" width="400"> </p>
+<p align="center">  <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2023/Fig/logo.jpg" width="400"> </p>
 
 **Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire23/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
 
