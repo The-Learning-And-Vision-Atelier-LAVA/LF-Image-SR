@@ -1,5 +1,5 @@
 # NTIRE 2023: Light Field Image Super-Resolution Challenge <br> 
-<p align="center">  <img src="https://raw.githubusercontent.com/YingqianWang/LF-Image-SR/NTIRE2023/Fig/LFSR-logo.bmp" width="400"> </p>
+<p align="center">  <img src="https://raw.githubusercontent.com/YingqianWang/LF-Image-SR/NTIRE2023/Fig/logo.jpg" width="400"> </p>
 
 **Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire23/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
 
@@ -44,7 +44,7 @@ We evaluate the submitted results by comparing them with the ground truth LF ima
 In this challenge, **LF-InterNet** is used as a baseline model and the submitted results should be at least on par with LF-InterNet. The solutions with PSNR values lower than LF-InterNet will not be ranked in the leaderboard. Here, we provide the scores achieved by Bicubic, LF-InterNet, DistgSSR and LFT for reference.
 
 ### PSNR and SSIM values achieved by baseline methods on the validation set for 4xSR:
-| Method | PSNR (avg)  |  PSNR (syn)  | PSNR (real)  || SSIM (avg)  |  SSIM (syn)  | SSIM (real)  |
+| Method | PSNR (avg)  |  PSNR (syn)  | PSNR (real)  | SSIM (avg)  |  SSIM (syn)  | SSIM (real)  |
 |:------:|  :--------: | :--------: | :---------: | :-------: | :-------: | :-------: | :-------: |
 | Bicubic       | 
 | LF-InterNet   | 
@@ -80,7 +80,7 @@ You can also join our WeChat group by scanning the code below:
 * [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
 * [**Longguang Wang**](https://longguangwang.github.io/) ([wanglongguang15@nudt.edu.cn](wanglongguang15@nudt.edu.cn))
 * [**Zhengyu Liang**](https://github.com/ZhengyuLiang24) ([zyliang@nudt.edu.cn](zyliang@nudt.edu.cn))
-* **Jungang Yang** ([yangjungang@nudt.edu.cn](yangjungang@nudt.edu.cn))
+* [**Jungang Yang**]() ([yangjungang@nudt.edu.cn](yangjungang@nudt.edu.cn))
 * [**Yulan Guo**](http://yulanguo.me/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
 * [**Radu Timofte**](https://people.ee.ethz.ch/~timofter/) ([Radu.Timofte@vision.ee.ethz.ch](Radu.Timofte@vision.ee.ethz.ch))
 <br><br>
