@@ -74,7 +74,7 @@ Each group cannot have more than six group members (i.e., 1 to 6 group members i
 For any question regarding this challenge, raise an issue under this repository. <br>
 You can also join our WeChat group by scanning the code below:
 
-<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2023/Fig/WeChat.png" width="50%"> </p>
+<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2023/Fig/WeChat.png" width="30%"> </p>
 
 ## Organizers:
 * [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
