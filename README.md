@@ -27,7 +27,7 @@ During the test phase, the test set will be released, which includes LR LF image
 
 This challenge follows the training set in the paper [DistgSSR](https://yingqianwang.github.io/DistgLF/), and uses the EPFL, HCInew, HCIold, INRIA and STFgantry datasets which totally consist of 144 scenes for training. All the LF images in the training set have an angular resolution of 9x9. The participants can use these HR LF images as groundtruths, and use the [BasicLFSR toolbox](https://github.com/ZhengyuLiang24/BasicLFSR) to train their models. **External training data or pretrained models are NOT allowed in this challenge.**
 
-### Validation Set:
+### Validation Set: *[[Baidu Drive](https://pan.baidu.com/s/1n6TPP7EJlkKPMn-0DkN10g) (key:lfsr) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/Es3gi3N9XuVPpm8a9pysMGcB2-Pxenr5zo0WZXRaz_SaaA?e=1I840e)]*
 
 We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the CodaLab server.
 
