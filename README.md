@@ -17,9 +17,9 @@ Jointly with the NTIRE workshop, we organize a challenge for LF community to foc
 ## Challenge Overview
 The objective of this challenge is to reconstruct HR LF images from their LR counterparts.
 
-During the model development phase, the HR training set and the LR validation set will be released. The participants should train their models on the training set and submit their super-resolved validation images to the CodaLab server for validation.
+During the model development phase, the HR training set and the LR validation set will be released. The participants can train their models on the training set and submit their super-resolved validation images to the CodaLab server for validation.
 
-During the test phase, the test set will be released, which includes LR LF images only. Challenge participants should apply their trained models to the LR test images to generate super-resolved test images. These super-resolved images will then be submitted by the participants and evaluated by the organizers with a set of objective quantitative metrics.
+During the test phase, the test set will be released, which includes LR LF images only. Challenge participants can apply their trained models to the LR test images to generate super-resolved test images. These super-resolved images will then be submitted by the participants and evaluated by the organizers with a set of objective quantitative metrics.
 <br><br>
 
 ## Datasets
