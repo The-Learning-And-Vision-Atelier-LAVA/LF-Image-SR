@@ -87,5 +87,5 @@ You can also join our WeChat group by scanning the code below:
 
 ## NTIRE 2023 Terms and Conditions:
 The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/9201#learn_the_details-terms_and_conditions).
-
+ 
 
