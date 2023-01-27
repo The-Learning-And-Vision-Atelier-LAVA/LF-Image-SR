@@ -1,7 +1,7 @@
 # NTIRE 2023: Light Field Image Super-Resolution Challenge <br> 
 <p align="center">  <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2023/Fig/logo.jpg" width="400"> </p>
 
-**Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire23/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
+**Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2023/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
 
 
 ## News and Updates:
@@ -57,13 +57,13 @@ We use CodaLab for online submission in the development phase. **Here, we provid
 <br><br>
 
 ## Important Dates
-* TBD: Release of training and validation data;
-* TBD: Validation server online;
-* TBD: Final test data release, validation server closed;
-* TBD: Test result submission deadline;
-* TBD: Fact sheet / code / model submission deadline;
-* TBD: Test preliminary score release to the participants;
-* TBD: Challenge paper submission deadline;
+* 2023-01-17: Release of training and validation data;
+* 2023-01-27: Validation server online;
+* 2023-03-07: Final test data release, validation server closed;
+* 2023-03-14: Test result submission deadline;
+* 2023-03-15: Fact sheet / code / model submission deadline;
+* 2023-03-17: Test preliminary score release to the participants;
+* 2023-03-28: Challenge paper submission deadline;
 <br><br>
 
 ## Group number policy
