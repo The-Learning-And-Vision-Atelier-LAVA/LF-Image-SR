@@ -47,10 +47,10 @@ In this challenge, **LF-InterNet** is used as a baseline model and the submitted
 ### PSNR and SSIM values achieved by baseline methods on the validation set for 4xSR:
 | Method | PSNR (avg)  |  PSNR (syn)  | PSNR (real)  | SSIM (avg)  |  SSIM (syn)  | SSIM (real)  |
 |:------:|  :--------: | :--------: | :---------: | :-------: | :-------: | :-------: | 
-| Bicubic       | 
-| LF-InterNet   | 
-| DistgSSR      | 
-| LFT           |
+| Bicubic       | 27.510 | 27.527 | 27.493 | 0.8714 | 0.8710 | 0.8719 | 
+| LF-InterNet   | 31.333 | 30.610 | 32.056 | 0.9381 | 0.9295 | 0.9468 | 
+| DistgSSR      | 31.746 | 31.229 | 32.264 | 0.9424 | 0.9357 | 0.9490 | 
+| LFT           | 31.750 | 31.083 | 32.418 | 0.9423 | 0.9344 | 0.9501 | 
 <br>
 
 ## Submission
