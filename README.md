@@ -5,6 +5,7 @@
 
 
 ## News and Updates:
+* **2023-01-31**: [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/9201) is online. Training and validation data has been released.
 * **2022-12-16**: The proposal for LF image SR challenge is approved.
 <br><br>
 
@@ -29,7 +30,7 @@ This challenge follows the training set in the paper [DistgSSR](https://yingqian
 
 ### Validation Set: *[[Baidu Drive](https://pan.baidu.com/s/1n6TPP7EJlkKPMn-0DkN10g) (key:lfsr) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/Es3gi3N9XuVPpm8a9pysMGcB2-Pxenr5zo0WZXRaz_SaaA?e=1I840e)]*
 
-We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the CodaLab server.
+We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/9201).
 
 ### Test Set:
 
@@ -58,7 +59,7 @@ We use CodaLab for online submission in the development phase. **Here, we provid
 
 ## Important Dates
 * 2023-01-17: Release of training and validation data;
-* 2023-01-27: Validation server online;
+* 2023-01-30: Validation server online;
 * 2023-03-07: Final test data release, validation server closed;
 * 2023-03-14: Test result submission deadline;
 * 2023-03-15: Fact sheet / code / model submission deadline;
