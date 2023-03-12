@@ -24,7 +24,7 @@ During the test phase, the test set will be released, which includes LR LF image
 <br><br>
 
 ## Datasets
-### Training Set: *[[Baidu Drive](https://pan.baidu.com/s/1mYQR6OBXoEKrOk0TjV85Yw) (key:7nzy) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EpkUehGwOlFIuSSdadq9S4MBEeFkNGPD_DlzkBBmZaV_mA?e=FiUeiv)]*
+### Training Set: *[[Baidu Drive](https://pan.baidu.com/s/1AyMJUSwwDf9T7Tr8xhs1nw) (key:lfsr) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EhRHBLf4oY1Fl7EyVMm4OKsBM17csVsuCMGXSVxSUPLiIg?e=x3of9A)]*
 
 This challenge follows the training set in the paper [DistgSSR](https://yingqianwang.github.io/DistgLF/), and uses the EPFL, HCInew, HCIold, INRIA and STFgantry datasets which totally consist of 144 scenes for training. All the LF images in the training set have an angular resolution of 9x9. The participants can use these HR LF images as groundtruths, and use the [BasicLFSR toolbox](https://github.com/ZhengyuLiang24/BasicLFSR) to train their models. **External training data or pretrained models are NOT allowed in this challenge.**
 
