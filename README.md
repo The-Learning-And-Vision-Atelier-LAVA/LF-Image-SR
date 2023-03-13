@@ -5,6 +5,7 @@
 
 
 ## News and Updates:
+* **2023-03-14**: Test phase begins and test data has been released. 
 * **2023-01-31**: [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/9201) is online. Training and validation data has been released.
 * **2022-12-16**: The proposal for LF image SR challenge is approved.
 <br><br>
@@ -32,9 +33,9 @@ This challenge follows the training set in the paper [DistgSSR](https://yingqian
 
 We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/9201).
 
-### Test Set:
+### Test Set: *[OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EiEJwlGY3SZDi0FMvHsIMUMB2c73kFsAqELkeidVGoOsKA?e=xHhOEG)]*
 
-We collect a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. Only 4× bicubically downsampled LR LF images with an angular resolution of 5x5 will be provided. The participants are required to apply their models to the released LR LF images and submit their 4× super-resolved LF images to the CodaLab platform for final ranking. **It should be noted that the images in both the validation and the test sets (even the LR versions) cannot be used for training.**
+We collect a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. Only 4× bicubically downsampled LR LF images with an angular resolution of 5x5 will be provided. The participants are required to apply their models to the released LR LF images and submit their 4× super-resolved LF images to the CodaLab platform for final ranking. **It should be noted that the images in both the validation and the test sets (even the LR versions) cannot be used for training.** We provide [a template](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/Eeneqp4BnlhBmd4EGJ6T4KEB3YtuxuCUTgakr-ezxySOWA?e=WtdFYe ) for the participants to format their fact sheet.
 <br><br>
 
 ## Evaluation Metrics
