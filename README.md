@@ -33,7 +33,7 @@ This challenge follows the training set in the paper [DistgSSR](https://yingqian
 
 We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/9201).
 
-### Test Set:
+### Test Set: [[OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EiEJwlGY3SZDi0FMvHsIMUMB2c73kFsAqELkeidVGoOsKA?e=xHhOEG)]*
 
 We collect a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. Only 4× bicubically downsampled LR LF images with an angular resolution of 5x5 will be provided. The participants are required to apply their models to the released LR LF images and submit their 4× super-resolved LF images to the CodaLab platform for final ranking. **It should be noted that the images in both the validation and the test sets (even the LR versions) cannot be used for training.** We provide [a template](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/Eeneqp4BnlhBmd4EGJ6T4KEB3YtuxuCUTgakr-ezxySOWA?e=WtdFYe ) for the participants to format their fact sheet.
 <br><br>
@@ -90,4 +90,14 @@ You can also join our WeChat group by scanning the code below:
 ## NTIRE 2023 Terms and Conditions:
 The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/9201#learn_the_details-terms_and_conditions).
  
-
+## Citiation
+**If you use the NTIRE-2023 dataset or the BasicLFSR toolbox, please consider citing:**
+```
+@InProceedings{NTIRE2023-LFSR,
+  author    = {Wang, Yingqian and Wang, Longguang and Liang, Zhengyu and Yang, Jungang and Timofte, Radu and Guo, Yulan and Jin, Kai and Wei, Zeqiang and Yang, Angulia and Guo, Sha and Gao, Mingzhi and Zhou, Xiuzhuang and Duong, Vinh Van and Huu, Thuc Nguyen and Yim, Jonghoon and Jeon, Byeungwoo and Liu, Yutong and Cheng, Zhen and Xiao, Zeyu and Xu, Ruikang and Xiong, Zhiwei and Liu, Gaosheng and Jin, Manchang and Yue, Huanjing and Yang, Jingyu and Gao, Chen and Zhang, Shuo and Chang, Song and Lin, Youfang and Chao, Wentao and Wang, Xuechun and Wang, Guanghui and Duan, Fuqing and Xia, Wang and Wang, Yan and Xia, Peiqi and Wang, Shunzhou and Lu, Yao and Cong, Ruixuan and Sheng, Hao and Yang, Da and Chen, Rongshan and Wang, Sizhe and Cui, Zhenglong and Chen, Yilei and Lu, Yongjie and Cai, Dongjun and An, Ping and Salem, Ahmed and Ibrahem, Hatem and Yagoub, Bilel and Kang, Hyun-Soo and Zeng, Zekai and Wu, Heng},
+  title     = {NTIRE 2023 Challenge on Light Field Image Super-Resolution: Dataset, Methods and Results},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  year      = {2023},
+}
+```
+<br>
