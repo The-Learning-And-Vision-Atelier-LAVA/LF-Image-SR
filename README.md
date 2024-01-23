@@ -1,13 +1,11 @@
-# NTIRE 2023: Light Field Image Super-Resolution Challenge <br> 
-<p align="center">  <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2023/Fig/logo.jpg" width="400"> </p>
+# NTIRE 2024: Light Field Image Super-Resolution Challenge <br> 
+<p align="center">  <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2024/Fig/logo.jpg" width="400"> </p>
 
-**Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2023/) in conjunction with CVPR 2023. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
+**Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2024/) in conjunction with CVPR 2024. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
 
 
 ## News and Updates:
-* **2023-03-14**: Test phase begins and test data has been released. 
-* **2023-01-31**: [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/9201) is online. Training and validation data has been released.
-* **2022-12-16**: The proposal for LF image SR challenge is approved.
+* **TBD**: [CodaLab server]() will be online. Training and validation data will be released.
 <br><br>
 
 ## Introduction
@@ -31,7 +29,7 @@ This challenge follows the training set in the paper [DistgSSR](https://yingqian
 
 ### Validation Set: *[[Baidu Drive](https://pan.baidu.com/s/1n6TPP7EJlkKPMn-0DkN10g) (key:lfsr) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/Es3gi3N9XuVPpm8a9pysMGcB2-Pxenr5zo0WZXRaz_SaaA?e=1I840e)]*
 
-We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/9201).
+We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server]().
 
 ### Test Set: [[OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EiEJwlGY3SZDi0FMvHsIMUMB2c73kFsAqELkeidVGoOsKA?e=xHhOEG)]*
 
@@ -43,15 +41,14 @@ We evaluate the submitted results by comparing them with the ground truth LF ima
 <br><br>
 
 ## Baseline Model
-In this challenge, **LF-InterNet** is used as a baseline model and the submitted results should be at least on par with LF-InterNet. The solutions with PSNR values lower than LF-InterNet will not be ranked in the leaderboard. Here, we provide the scores achieved by Bicubic, LF-InterNet, DistgSSR and LFT for reference.
+In this challenge, **DistgSSR** is used as a baseline model and the submitted results should be at least on par with DistgSSR. The solutions with PSNR values lower than DistgSSR will not be ranked in the leaderboard. Here, we provide the scores achieved by Bicubic, LF-InterNet, DistgSSR and LFT for reference.
 
 ### PSNR and SSIM values achieved by baseline methods on the validation set for 4xSR:
 | Method | PSNR (avg)  |  PSNR (syn)  | PSNR (real)  | SSIM (avg)  |  SSIM (syn)  | SSIM (real)  |
 |:------:|  :--------: | :--------: | :---------: | :-------: | :-------: | :-------: | 
-| Bicubic       | 27.510 | 27.527 | 27.493 | 0.8714 | 0.8710 | 0.8719 | 
-| LF-InterNet   | 31.333 | 30.610 | 32.056 | 0.9381 | 0.9295 | 0.9468 | 
-| DistgSSR      | 31.746 | 31.229 | 32.264 | 0.9424 | 0.9357 | 0.9490 | 
-| LFT           | 31.750 | 31.083 | 32.418 | 0.9423 | 0.9344 | 0.9501 | 
+| Bicubic       | 27.51 | 27.53 | 27.49 | 0.8714 | 0.8710 | 0.8719 | 
+| DistgSSR      | 31.75 | 31.23 | 32.26 | 0.9424 | 0.9357 | 0.9490 | 
+| EPIT          | 32.04 | 31.53 | 32.54 | 0.9447 | 0.9387 | 0.9547 | 
 <br>
 
 ## Submission
@@ -59,13 +56,13 @@ We use CodaLab for online submission in the development phase. **Here, we provid
 <br><br>
 
 ## Important Dates
-* 2023-01-17: Release of training and validation data;
-* 2023-01-30: Validation server online;
-* 2023-03-14: Final test data release, validation server closed;
-* 2023-03-20: Test result submission deadline;
-* 2023-03-20: Fact sheet / code / model submission deadline;
-* 2023-03-22: Test preliminary score release to the participants;
-* 2023-03-31: Challenge paper submission deadline;
+* 2024-01-17: Release of training and validation data;
+* 2024-01-30: Validation server online;
+* 2024-03-14: Final test data release, validation server closed;
+* 2024-03-20: Test result submission deadline;
+* 2024-03-20: Fact sheet / code / model submission deadline;
+* 2024-03-22: Test preliminary score release to the participants;
+* 2024-03-31: Challenge paper submission deadline;
 <br><br>
 
 ## Group number policy
@@ -90,14 +87,4 @@ You can also join our WeChat group by scanning the code below:
 ## NTIRE 2023 Terms and Conditions:
 The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/9201#learn_the_details-terms_and_conditions).
  
-## Citiation
-**If you use the NTIRE-2023 dataset or the BasicLFSR toolbox, please consider citing:**
-```
-@InProceedings{NTIRE2023-LFSR,
-  author    = {Wang, Yingqian and Wang, Longguang and Liang, Zhengyu and Yang, Jungang and Timofte, Radu and Guo, Yulan and Jin, Kai and Wei, Zeqiang and Yang, Angulia and Guo, Sha and Gao, Mingzhi and Zhou, Xiuzhuang and Duong, Vinh Van and Huu, Thuc Nguyen and Yim, Jonghoon and Jeon, Byeungwoo and Liu, Yutong and Cheng, Zhen and Xiao, Zeyu and Xu, Ruikang and Xiong, Zhiwei and Liu, Gaosheng and Jin, Manchang and Yue, Huanjing and Yang, Jingyu and Gao, Chen and Zhang, Shuo and Chang, Song and Lin, Youfang and Chao, Wentao and Wang, Xuechun and Wang, Guanghui and Duan, Fuqing and Xia, Wang and Wang, Yan and Xia, Peiqi and Wang, Shunzhou and Lu, Yao and Cong, Ruixuan and Sheng, Hao and Yang, Da and Chen, Rongshan and Wang, Sizhe and Cui, Zhenglong and Chen, Yilei and Lu, Yongjie and Cai, Dongjun and An, Ping and Salem, Ahmed and Ibrahem, Hatem and Yagoub, Bilel and Kang, Hyun-Soo and Zeng, Zekai and Wu, Heng},
-  title     = {NTIRE 2023 Challenge on Light Field Image Super-Resolution: Dataset, Methods and Results},
-  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-  year      = {2023},
-}
-```
 <br>
