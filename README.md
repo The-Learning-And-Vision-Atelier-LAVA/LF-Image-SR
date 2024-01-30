@@ -5,7 +5,7 @@
 
 
 ## News and Updates:
-* **TBD**: [CodaLab server]() will be online. Training and validation data will be released.
+* **TBD**: Codalab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/17265) and [Track2](https://codalab.lisn.upsaclay.fr/competitions/17266) is online. Training and validation data is released.
 <br><br>
 
 ## Introduction
@@ -31,17 +31,29 @@ This challenge follows the training set in the paper [DistgSSR](https://yingqian
 
 We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server]().
 
-### Test Set: [[OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/EiEJwlGY3SZDi0FMvHsIMUMB2c73kFsAqELkeidVGoOsKA?e=xHhOEG)]*
+### Test Set: *
 
 We collect a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. Only 4× bicubically downsampled LR LF images with an angular resolution of 5x5 will be provided. The participants are required to apply their models to the released LR LF images and submit their 4× super-resolved LF images to the CodaLab platform for final ranking. **It should be noted that the images in both the validation and the test sets (even the LR versions) cannot be used for training.** We provide [a template](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/Eeneqp4BnlhBmd4EGJ6T4KEB3YtuxuCUTgakr-ezxySOWA?e=WtdFYe ) for the participants to format their fact sheet.
 <br><br>
+
 
 ## Evaluation Metrics
 We evaluate the submitted results by comparing them with the ground truth LF images. To measure the fidelity, we use the standard Peak Signal to Noise Ratio (PSNR) and, complementarily, the Structural Similarity (SSIM) index as they are often employed in the literature. PSNR and SSIM implementations can be found in the [BasicLFSR toolbox](https://github.com/ZhengyuLiang24/BasicLFSR). **We report the submissions over the synthetic and real-world images in the test sets, and rank the submissions according to the average PSNR values.** The SSIM metrics will not affect submission rankings but will be used to review the strengths and weaknesses of suggested methods in the final challenge report. 
 <br><br>
 
-## Baseline Model
-In this challenge, **DistgSSR** is used as a baseline model and the submitted results should be at least on par with DistgSSR. The solutions with PSNR values lower than DistgSSR will not be ranked in the leaderboard. Here, we provide the scores achieved by Bicubic, LF-InterNet, DistgSSR and LFT for reference.
+
+## Tracks (NEW):
+There are two tracks in this challenge. Both tracks adopt the bicubic downsampling approach to generate LR LF images.
+
+### Track 1: [Fidelity Only](https://codalab.lisn.upsaclay.fr/competitions/17265)
+This track aims to encourage participants to explore the precision upper bound of LF image SR. In this track, their is no efficiency limitation (e.g., the parameter amount or computational cost) of the developed models. The rankings are determined by the average PSNR value on the test set only. 
+
+### Track 2: [Fidelity & Efficiency](https://codalab.lisn.upsaclay.fr/competitions/17266)
+In this track, we aspire to highlight an under-investigated issue of efficient inference in LF image SR, and hope the participants to develop LF image SR methods that can achieve high computational efficiency without compromising the SR quality. **In this track, the model size (i.e., number
+of parameters) is strictly restricted to 1 MB, and the FLOPs is strictly restricted to 20 G (with an input LF of size 5×5×32×32). Models that do not meet the efficiency requirement will not be included for ranking.** The rankings are determined by the average PSNR value on the test set only. 
+
+## Baseline Models:
+**DistgSSR** and **Bicubic** are used as baseline models in Track 1 and Track 2, respectively. The submitted results should be at least on par with the baseline models. The solutions with PSNR values lower than the baseline models will not be ranked in the leaderboard. Here, we provide the scores achieved by Bicubic, DistgSSR and EPIT for reference.
 
 ### PSNR and SSIM values achieved by baseline methods on the validation set for 4xSR:
 | Method | PSNR (avg)  |  PSNR (syn)  | PSNR (real)  | SSIM (avg)  |  SSIM (syn)  | SSIM (real)  |
@@ -52,12 +64,11 @@ In this challenge, **DistgSSR** is used as a baseline model and the submitted re
 <br>
 
 ## Submission
-We use CodaLab for online submission in the development phase. **Here, we provide an [example]() to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.lfsr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/9201) for details of the submission rules.
+We use CodaLab for online submission in the development phase. **Here, we provide an [example](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/EZlBXzU5CZ9DsZKXaK56iksBcdN_cajk-hRYjXQI-K0E-g?e=3UMldv) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.lfsr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/17265) for details of the submission rules.
 <br><br>
 
 ## Important Dates
-* 2024-01-17: Release of training and validation data;
-* 2024-01-30: Validation server online;
+* 2024-02-01: Release of training and validation data, validation server online;
 * 2024-03-14: Final test data release, validation server closed;
 * 2024-03-20: Test result submission deadline;
 * 2024-03-20: Fact sheet / code / model submission deadline;
@@ -85,6 +96,6 @@ You can also join our WeChat group by scanning the code below:
 <br><br>
 
 ## NTIRE 2023 Terms and Conditions:
-The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/9201#learn_the_details-terms_and_conditions).
+The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/17265#learn_the_details-terms_and_conditions).
  
 <br>
