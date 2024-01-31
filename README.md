@@ -68,12 +68,14 @@ We use CodaLab for online submission in the development phase. **Here, we provid
 <br><br>
 
 ## Important Dates
-* 2024-02-01: Release of training and validation data, validation server online;
-* 2024-03-14: Final test data release, validation server closed;
-* 2024-03-20: Test result submission deadline;
-* 2024-03-20: Fact sheet / code / model submission deadline;
-* 2024-03-22: Test preliminary score release to the participants;
-* 2024-03-31: Challenge paper submission deadline;
+* 2024-01-30: Release of train data (input and output) and validation data (inputs only)
+* 2024-01-31: Validation server online
+* 2024-03-14: Final test data release (inputs only)
+* 2024-03-21: Test output results submission deadline
+* 2024-03-21: Fact sheets and code/executable submission deadline
+* 2024-03-22: Preliminary test results release to the participants
+* 2024-03-31: Paper submission deadline for entries from the challenge
+* 2024-06-18 (TBU): NTIRE workshop and challenges, results and award ceremony (CVPR 2024, Seattle)
 <br><br>
 
 ## Group number policy
@@ -84,18 +86,18 @@ Each group cannot have more than six group members (i.e., 1 to 6 group members i
 For any question regarding this challenge, raise an issue under this repository. <br>
 You can also join our WeChat group by scanning the code below:
 
-<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2023/Fig/WeChat.jpg" width="40%"> </p>
+<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2024/Fig/WeChat.jpg" width="40%"> </p>
 
 ## Organizers:
 * [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
-* [**Longguang Wang**](https://longguangwang.github.io/) ([wanglongguang15@nudt.edu.cn](wanglongguang15@nudt.edu.cn))
 * [**Zhengyu Liang**](https://github.com/ZhengyuLiang24) ([zyliang@nudt.edu.cn](zyliang@nudt.edu.cn))
+* [**Longguang Wang**](https://longguangwang.github.io/) ([wanglongguang15@nudt.edu.cn](wanglongguang15@nudt.edu.cn))
 * [**Jungang Yang**]() ([yangjungang@nudt.edu.cn](yangjungang@nudt.edu.cn))
 * [**Radu Timofte**](https://people.ee.ethz.ch/~timofter/) ([Radu.Timofte@vision.ee.ethz.ch](Radu.Timofte@vision.ee.ethz.ch))
-* [**Yulan Guo**](http://yulanguo.me/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
+* [**Yulan Guo**](http://yulanguo.cn/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
 <br><br>
 
-## NTIRE 2023 Terms and Conditions:
+## NTIRE 2024 Terms and Conditions:
 The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/17265#learn_the_details-terms_and_conditions).
  
 <br>
