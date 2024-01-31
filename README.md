@@ -5,7 +5,7 @@
 
 
 ## News and Updates:
-* **2024-01-31**: Codalab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/17265) and [Track2](https://codalab.lisn.upsaclay.fr/competitions/17266) is online. Training and validation data is released.
+* **2024-01-30**: Codalab servers for [Track1](https://codalab.lisn.upsaclay.fr/competitions/17265) and [Track2](https://codalab.lisn.upsaclay.fr/competitions/17266) are online. Training and validation data is released.
 <br><br>
 
 ## Introduction
