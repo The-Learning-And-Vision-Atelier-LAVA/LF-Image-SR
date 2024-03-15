@@ -31,7 +31,7 @@ This challenge follows the training set in the paper [DistgSSR](https://yingqian
 
 We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server]().
 
-### Test Set:
+### Test Set:  *[OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/Es3gi3N9XuVPpm8a9pysMGcB2-Pxenr5zo0WZXRaz_SaaA?e=1I840e)]*
 
 We collect a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. Only 4× bicubically downsampled LR LF images with an angular resolution of 5x5 will be provided. The participants are required to apply their models to the released LR LF images and submit their 4× super-resolved LF images to the CodaLab platform for final ranking. **It should be noted that the images in both the validation and the test sets (even the LR versions) cannot be used for training.** We provide [a template](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/Eeneqp4BnlhBmd4EGJ6T4KEB3YtuxuCUTgakr-ezxySOWA?e=WtdFYe ) for the participants to format their fact sheet.
 <br><br>
@@ -49,8 +49,8 @@ There are two tracks in this challenge. Both tracks adopt the bicubic downsampli
 This track aims to encourage participants to explore the precision upper bound of LF image SR. In this track, their is no efficiency limitation (e.g., the parameter amount or computational cost) of the developed models. The rankings are determined by the average PSNR value on the test set only. 
 
 ### Track 2: [Fidelity & Efficiency](https://codalab.lisn.upsaclay.fr/competitions/17266)
-In this track, we aspire to highlight an under-investigated issue of efficient inference in LF image SR, and hope the participants to develop LF image SR methods that can achieve high computational efficiency without compromising the SR quality. **In this track, the model size (i.e., number
-of parameters) is strictly restricted to 1 MB, and the FLOPs is strictly restricted to 20 G (with an input LF of size 5×5×32×32). Models that do not meet the efficiency requirement will not be included for ranking.** The rankings are determined by the average PSNR value on the test set only. 
+In this track, we aspire to highlight an under-investigated issue of efficient inference in LF image SR, and hope the participants to develop LF image SR methods that can achieve high computational efficiency without compromising the SR quality. Note that, in this track, the model size (i.e., number of parameters) is restricted to 1 MB, and the FLOPs computed using the fvcore library is restricted to 20 G (with an input LF of size 5×5×32×32). The computational cost of Test-Time Augmentation (TTA) operations will be counted to the final FLOPs. Models that do not meet the efficiency requirement will not be included for the ranking. After the submission of the fact sheet and code, we will also assess the inference time of each model as an additional metric in the final challenge report. The rankings are determined by the average PSNR value on the test set only. 
+
 
 ## Baseline Models:
 **DistgSSR** and **Bicubic** are used as baseline models in Track 1 and Track 2, respectively. The submitted results should be at least on par with the baseline models. The solutions with PSNR values lower than the baseline models will not be ranked in the leaderboard. Here, we provide the scores achieved by Bicubic, DistgSSR and EPIT for reference.
